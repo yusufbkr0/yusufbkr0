@@ -52,25 +52,26 @@ with open(r"C:\Users\LENOVO\Desktop\python\newss\ornek_metin.txt","r") as file:
                     gecti.write(f"{ortlama}\n")
                   
             else:
-                    #ad soyad yazdirma 
+                       #ad soyad yazdirma 
                     print(f"{ad} {soyad}",end=" ")
                     print(" "*(30-(len(ad_soyad))))
-                    gecti.write(f"{ad} {soyad}")
-                    gecti.write(" "*(30-(len(ad_soyad))))
+                    kalan.write(f"{ad} {soyad}")
+                    kalan.write(" "*(30-(len(ad_soyad))))
 
                     #bolum yazdirma
                     print(f"{bolum} ")
                     print(" "*(30-(len(bolum))))
-                    gecti.write(f"{bolum}")
-                    gecti.write(" "*(30-(len(bolum))))
+                    kalan.write(f"{bolum}")
+                    kalan.write(" "*(30-(len(bolum))))
 
                     #ortalama yazdirma
                     
                     print(f"{ortlama}\n")
 
-                    gecti.write(f"{ortlama}\n")
-                    
-                   # kalan.write(f"{ad} {soyad}: {ortlama}\n")
+                    kalan.write(f"{ortlama}\n")
+
+
+#thank you
                 
           
            
