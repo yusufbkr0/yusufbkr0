@@ -1,0 +1,5 @@
+{
+  "name": "PFC Optimization Agent",
+  "description": "3-Phase Interleaved Boost PFC Control Optimizer using Gemini AI.",
+  "requestFramePermissions": []
+}
